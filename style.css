@@ -6,18 +6,35 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: #bdc3c7;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
 nav {
-    background: #01579b;
-    height: 80px;
+    background: white;
+    height: 90px;
     width: 100%;
+    color: black;
+}
+
+h1 {
+    background: #01579b;
+    height: 130px;
+    width: 100%;
+    color: white;
+    margin-top: 0px;
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 label.logo {
-    color: white;
+    color: black;
     font-weight: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -36,7 +53,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -45,8 +62,9 @@ nav ul li a {
 
 .active,
 a:hover {
-    background: black;
+    background: #01579b;
     transition: .5s;
+    color: white;
 }
 
 .active:hover {
