@@ -99,7 +99,7 @@ input.submit:hover {
 }
 
 .wallpaper {
-    height: 90vh;
+    height: 88vh;
     width: 100%;
     background: url(fundo.jpg);
     background-size: cover;
@@ -110,7 +110,7 @@ input.submit:hover {
 
 nav {
     background: white;
-    height: 10vh;
+    height: 12vh;
     width: 100%;
     color: black;
 }
