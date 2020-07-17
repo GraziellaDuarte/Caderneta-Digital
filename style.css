@@ -215,68 +215,6 @@ input[name="r"] {
 /* Login */
 
 
-/* .box {
-    width: 500px;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #607d8b;
-    text-align: center;
-}
-
-.box h2 {
-    color: black;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-.box .input {
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #3498db;
-    padding: 14px 10px;
-    width: 200px;
-    outline: none;
-    color: black;
-    border-radius: 24px;
-    transition: 0.25s;
-}
-
-.box .input::placeholder {
-    color: black;
-}
-
-.box:focus,
-.input:focus {
-    width: 280px;
-    border-color: #01579b;
-}
-
-.box .submit {
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #01579b;
-    padding: 14px 40px;
-    outline: none;
-    color: black;
-    border-radius: 24px;
-    transition: 0.25s;
-    cursor: pointer;
-}
-
-.box .submit:hover {
-    background: #01579b;
-} */
-
-
 /* Accordion */
 
 .middle {
