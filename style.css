@@ -27,13 +27,12 @@ h1 {
     width: 100%;
     color: white;
     margin-top: 0px;
-    /* margin-bottom: 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-label.logo {
+a.logo {
     color: black;
     font-weight: 35px;
     line-height: 80px;
@@ -88,7 +87,7 @@ a:hover {
 }
 
 @media (max-width: 952px) {
-    label.logo {
+    a.logo {
         font-size: 30px;
         padding-left: 50px;
     }
@@ -137,6 +136,9 @@ section {
     height: calc(100vh -80px);
 }
 */
+
+
+/* Slide de fotos */
 
 .slidershow {
     width: 700px;
@@ -209,7 +211,11 @@ input[name="r"] {
     margin-left: -60%;
 }
 
-.box {
+
+/* Login */
+
+
+/* .box {
     width: 500px;
     padding: 40px;
     position: absolute;
@@ -220,7 +226,7 @@ input[name="r"] {
     text-align: center;
 }
 
-.box h1 {
+.box h2 {
     color: black;
     text-transform: uppercase;
     font-weight: 500;
@@ -268,7 +274,7 @@ input[name="r"] {
 
 .box .submit:hover {
     background: #01579b;
-}
+} */
 
 
 /* Accordion */
