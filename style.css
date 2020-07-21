@@ -22,7 +22,7 @@ nav {
 }
 
 h1 {
-    background: #01579b;
+    background: #17755b;
     height: 130px;
     width: 100%;
     color: white;
@@ -61,7 +61,7 @@ nav ul li a {
 
 .active,
 a:hover {
-    background: #01579b;
+    background: #17755b;
     transition: .5s;
     color: white;
 }
@@ -121,7 +121,7 @@ a:hover {
     a:hover,
     a.active {
         background: none;
-        color: #0082e6;
+        color: #17755b;
     }
     #check:checked~ul {
         left: 0;
@@ -238,7 +238,7 @@ input[name="r"] {
 .btn {
     display: block;
     padding: 16px 20px;
-    background: #3498db;
+    background: #17755b;
     color: white;
     position: relative;
 }
@@ -248,7 +248,7 @@ input[name="r"] {
     position: absolute;
     width: 14px;
     height: 14px;
-    background: #3498db;
+    background: #17755b;
     left: 20px;
     bottom: -7px;
     transform: rotate(45deg);
@@ -275,7 +275,7 @@ input[name="r"] {
     position: absolute;
     width: 6px;
     height: 100px;
-    background: #3498db;
+    background: #17755b;
     left: 0;
     top: 0;
     transition: 0.3s;
@@ -288,4 +288,29 @@ input[name="r"] {
 
 .item:target .smenu {
     max-height: 10em;
+}
+
+
+/* Imc */
+
+form {
+    width: 350px;
+    height: 420px;
+    background: #1abc9c;
+    color: black;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 100px 50px;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 80px;
+    background: #17755b;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
 }
