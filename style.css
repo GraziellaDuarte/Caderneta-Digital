@@ -370,3 +370,12 @@ button {
     border-bottom-right-radius: 15px;
     background: #17755b;
 }
+
+.card-stats .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
