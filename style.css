@@ -414,6 +414,10 @@ button {
     position: relative;
 }
 
+body.dark {
+    background-color: #292C35;
+}
+
 .fa-moon {
     color: #f1c40f;
 }
