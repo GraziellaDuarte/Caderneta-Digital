@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 nav {
@@ -396,4 +397,15 @@ button {
 .card:hover {
     transform: scale(1.2);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Modo Noturno */
+
+.label {
+    background-color: #111;
+    display: flex;
+    border-radius: 50px;
+    height: 26px;
+    width: 50px;
 }
