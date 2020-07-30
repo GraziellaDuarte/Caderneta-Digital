@@ -6,16 +6,13 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: #bdc3c7;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #bdc3c7;
 }
 
 nav {
@@ -402,46 +399,58 @@ button {
 
 /* Modo Noturno */
 
-.label {
-    background-color: #111;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 50px;
-    padding: 5px;
-    height: 26px;
-    width: 50px;
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+}
+
+.check {
     position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: #092c2e;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
 }
 
-body.dark {
-    background-color: #292C35;
+input[type="checkbox"]:checked~.check {
+    background: #fff;
+    box-shadow: 0 0 0 1200px #092c2e;
 }
 
-.fa-moon {
-    color: #f1c40f;
-}
-
-.fa-sun {
-    color: #f39c12;
-}
-
-.ball {
-    background-color: #fff;
-    height: 22px;
-    width: 22px;
+.check::before {
+    content: '';
     position: absolute;
     top: 2px;
     left: 2px;
+    background: #fff;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
-    transition: transform 0.2s linear;
+    transition: 0.5s;
 }
 
-.checkbox {
-    opacity: 0;
+input[type="checkbox"]:checked~.check::before {
+    transform: translateX(-50px);
+}
+
+.check::after {
+    content: '';
     position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #092c2e;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(50px);
 }
 
-.checkbox:checked+.label .ball {
-    transform: translateX(24px);
+input[type="checkbox"]:checked~.check::after {
+    transform: translateX(0px);
 }
