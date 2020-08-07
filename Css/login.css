@@ -76,7 +76,7 @@ input.submit {
     border: none;
     outline: none;
     height: 40px;
-    background: #01579b;
+    background: #17755b;
     color: #fff;
     font-size: 18px;
 }
@@ -116,7 +116,7 @@ nav {
 }
 
 h1 {
-    background: #01579b;
+    background: #17755b;
     height: 130px;
     width: 100%;
     color: white;
@@ -155,7 +155,7 @@ nav ul li a {
 
 .active,
 a:hover {
-    background: #01579b;
+    background: #17755b;
     transition: .5s;
     color: white;
 }
