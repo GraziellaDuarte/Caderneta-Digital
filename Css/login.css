@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(fundo.jpg);
+    background: url(../Img/fundo.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
