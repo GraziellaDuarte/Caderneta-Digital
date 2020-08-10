@@ -113,6 +113,8 @@ section {
 
 /* Slide de fotos */
 
+
+/*
 .slidershow {
     width: 700px;
     height: 400px;
@@ -182,7 +184,7 @@ input[name="r"] {
 
 #r4:checked~.s1 {
     margin-left: -60%;
-}
+} */
 
 
 /* Login */
@@ -347,4 +349,18 @@ input[type="checkbox"]:checked~.check::before {
 
 input[type="checkbox"]:checked~.check::after {
     transform: translateX(0px);
+}
+
+
+/* Retangulo */
+
+.rectangle {
+    background: #17755b;
+    border-radius: 30px;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    /* position: absolute;
+    top: 90%;
+    left: 33%; */
 }
