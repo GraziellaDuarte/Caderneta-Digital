@@ -207,6 +207,12 @@ button {
 
 /* Modo Noturno */
 
+label {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 input[type="checkbox"] {
     -webkit-appearance: none;
     visibility: hidden;
