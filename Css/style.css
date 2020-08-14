@@ -105,10 +105,10 @@ body {
 /* Accordion */
 
 .middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto 0 auto;
 }
 
 .menu {
