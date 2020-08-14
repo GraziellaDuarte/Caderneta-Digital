@@ -105,10 +105,9 @@ body {
 /* Accordion */
 
 .middle {
-    position: relative;
-    width: 600px;
-    height: 200px;
-    margin: 0 auto 0 auto;
+    position: absolute;
+    top: 500%;
+    left: 30%;
 }
 
 .menu {
@@ -188,9 +187,9 @@ form {
     box-sizing: border-box;
     padding: 100px 50px;
     border-radius: 10px;
-    flex-direction: column;
-    margin-top: 20px;
-    margin: 0 auto;
+    position: absolute;
+    top: 80%;
+    left: 40%;
 }
 
 button {
