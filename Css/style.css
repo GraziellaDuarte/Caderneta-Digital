@@ -279,3 +279,17 @@ input[type="checkbox"]:checked~.check::after {
     margin: 0 auto;
     text-align: center;
 }
+
+.square {
+    background: rgb(189, 178, 178);
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.letreiro {
+    margin: 0 auto;
+    text-align: center;
+}
