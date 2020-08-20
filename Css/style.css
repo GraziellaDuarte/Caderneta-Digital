@@ -271,7 +271,7 @@
       margin: 0 auto;
       text-align: center;
   }
-  
+  /*   
   .square {
       background: rgb(189, 178, 178);
       width: 150px;
@@ -282,6 +282,33 @@
       display: flex;
       justify-content: flex-start;
       ;
+  } */
+  
+  .square {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      position: relative;
+      background: red;
+      margin: 0 auto;
+  }
+  
+  .square::after {
+      content: "";
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: 300px;
+      background: blue;
+  }
+  
+  .square::before {
+      content: "";
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      right: -150px;
+      background: green;
   }
   
   .letreiro {
